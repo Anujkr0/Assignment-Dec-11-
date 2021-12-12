@@ -1,0 +1,68 @@
+body {
+    background-color: #259dd4;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    padding-left: 50px;
+}
+
+
+h2, h4 {
+    margin: 0px;
+}
+
+.header, .card {
+    background-color: #e4e0e0
+}
+
+.header {
+    color: rgb(177, 20, 177);
+    background-color: rgb(24, 24, 9);
+    position: sticky;
+    top: 0px;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.leftcontent {
+    padding: 5px;
+    width: calc(70% - 10px);
+    float: left;
+}
+
+.rightcontent {
+    padding: 5px;
+    width: calc(30% - 10px);
+    float: right;
+}
+
+.card {
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.right-sticky {
+    position: sticky;
+    top: 70px;
+} 
+.footer{
+    background: black;
+    padding: 10px;
+    color: cornsilk;
+    margin-top: 40px;
+    
+    
+}
+
